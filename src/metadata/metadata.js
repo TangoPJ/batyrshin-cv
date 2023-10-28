@@ -1,69 +1,77 @@
 module.exports = {
   name: "Rail Batyrshin",
-  title: "Poet, playwright and actor",
+  title: "Software Engineer",
   facts: {
-    Residence:
-      '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
-    Wiki: `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
-                </a>`,
-    Twitter: `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
+    Residence: `
+      <a href="https://www.google.com/maps/place/Osh/@40.5201157,72.7667115,13z/data=!4m6!3m5!1s0x38bdac017f5a2e85:0xe0a3c61dc6f47b95!8m2!3d40.5139985!4d72.8160976!16zL20vMDRyMWg2?entry=ttu">
+        <i class="fa fa-home fact-icon"></i>Osh, KG
+      </a>
+    `,
+    LinkedIn: `
+      <a href="https://www.linkedin.com/in/rail-batyrshin-852125235/">
+        <i class="fab fa-linkedin fact-icon"></i>Rail Batyrshin
+      </a>
+    `,
+    GitHub:
+      '<a href="https://github.com/TangoPJ"><i class="fab fa-github fact-icon"></i>TangoPJ</a>',
+    Mobile:
+      '<a href="tel:+996555240064"><i class="fa fa-phone fact-icon"></i>+996555240064</a>',
     Email:
-      '<a href="mailto:wil64@yahoo.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>',
+      '<a href="mailto:rail.batyrshin.js@gmail.com"><i class="fa fa-envelope fact-icon"></i>rail.batyrshin.js@gmail.com</a>',
   },
   skills: [
-    ["Comedy", 100],
-    ["Love", 100],
-    ["Theater", 100],
-    ["Tragedy", 100],
-    ["Poetry", 100],
-    ["Erotic", 75],
-    ["Sonnets", 100],
-    ["Plays", 100],
-    ["Writing", 100],
-    ["Directing", 75],
-    ["Literature", 100],
-    ["Influence", 100],
+    ["Typescript", 100],
+    ["HTML5", 100],
+    ["CSS", 100],
+    ["React", 100],
+    ["Vue3.js", 75],
+    ["ChakraUI", 100],
+    ["RxJS", 100],
+    ["OAuth", 100],
+    ["REST", 100],
+    ["CI/CD", 75],
+    ["NodeJS", 75],
+    ["SQL", 75],
+    ["Git", 100],
+    ["Jira", 100],
   ],
   positions: [
     {
-      title: "Hamlet",
-      period: "Likely early 17th century",
-      skills: ["tragedy", "philosophy", "death"],
+      company: "MadDevs",
+      location: "Bishkek, KG",
+      title: "Frontend Engineer",
+      period: "Aug 2021 - Sep 2022",
+      skills: ["Typescript", "Vue2.js", "Nuxt", "NodeJS", "Express", "AWS s3"],
       contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
+  [MadDevs](https://maddevs.io/) is a website of the MadDevs that helps users to find the basic information about the company,
+read useful articles in a blog section, place an order for software development via the contact form and much more.
+
+As a developer, I'm responsible for:
+
+* Participation in team development
+* Developing backend with NodeJS (Express) / AWS s3
+* Developing frontend with Vue2.js (Nuxt) / Prismic CMS
+* Developing responsive version of a UI by the given design
+* Integration third party services such as [Mad-radiator](https://github.com/maddevsio/mad-radiator), [Seo-analyzer](https://www.npmjs.com/package/seo-analyzer), [Sendpulse](https://sendpulse.com/)
 `,
     },
     {
-      title: "Twelfth Night",
-      period: "1600 – 1601",
-      skills: ["comedy", "love"],
+      company: "MadDevs",
+      location: "Bishkek, KG",
+      title: "Frontend Engineer",
+      period: "Sep 2022 - Mar 2023",
+      skills: ["Typescript", "Vue3.js", "Quasar", "Amcharts library"],
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
-`,
-    },
-    {
-      title: "The Tragedy of Romeo and Juliet",
-      period: "1595–1596, with a possible early draft written in 1591",
-      skills: ["tragedy", "death", "love"],
-      contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`,
-    },
-  ],
-  experience: [
-    {
-      header: "Performance",
-      skills: ["theater", "play"],
-      contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
-`,
-    },
-    {
-      header: "Poetry",
-      skills: ["poetry", "erotic"],
-      contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. I dedicated them to Henry Wriothesley, Earl of Southampton.
+  [Enji](https://enji.ai/) - big platform to engineering teams observability for enterprises
+
+My responsibilities in this project were:
+
+* Participation in software development under the guidance of a team lead
+* Developing frontend with TypeScript, Vue3.js/Quasar, creating internal pages with tables
+* Integration of third-party services
+* Refactoring and optimization of the existing code base
+* Successfully integrated authentication and authorization services into the project,
+ensuring secure access control and user management - together with backend developers
 `,
     },
   ],
