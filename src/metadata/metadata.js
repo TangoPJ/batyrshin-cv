@@ -20,12 +20,12 @@ module.exports = {
       '<a href="mailto:rail.batyrshin.js@gmail.com"><i class="fa fa-envelope fact-icon"></i>rail.batyrshin.js@gmail.com</a>',
   },
   skills: [
-    ["Typescript", 100],
+    ["Typescript", 90],
     ["HTML5", 100],
     ["CSS", 100],
     ["React", 100],
     ["Vue3.js", 75],
-    ["ChakraUI", 100],
+    ["ChakraUI", 95],
     ["RxJS", 100],
     ["OAuth", 100],
     ["REST", 100],
@@ -72,6 +72,34 @@ My responsibilities in this project were:
 * Refactoring and optimization of the existing code base
 * Successfully integrated authentication and authorization services into the project,
 ensuring secure access control and user management - together with backend developers
+`,
+    },
+    {
+      company: "MadDevs",
+      location: "Bishkek, KG",
+      title: "Frontend Engineer",
+      period: "Mar 2023 - Aug 2023",
+      skills: ["Typescript", "React", "Next.js", "ChakraUI", "Google auth"],
+      contents: `
+  [Joiny](https://joiny-landing.vercel.app/) - next gen equity management platform for angel investors, web3 builders, and venture firms
+
+* Created the project using React/Next.js/ChakraUI/TypeScript from scratch by given design
+* Integration of third-party services
+* Provided interaction with the backend, which is written in Solidity - together with Blockchain developers
+* Created a landing page for the platform above
+`,
+    },
+  ],
+
+  experience: [
+    {
+      contents: `
+* Over the past 2 years I have also been developing various landing pages such as Steven Signal, Enji. Worked on codebase maintenance, refactoring and creation of admin panel (using React/TypeScript/Ant-design) for the Mad-radiator project using NestJS/Typescript/Postgresql on the server side.
+`,
+    },
+    {
+      contents: `
+* Some of my interests and hobbies revolve around GitHub and open source community. Sometimes I contribute to projects, for example [The Curriculum Vitae Template](https://github.com/sneas/cv-template), etc.
 `,
     },
   ],
