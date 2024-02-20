@@ -20,20 +20,19 @@ module.exports = {
       '<a href="mailto:rail.batyrshin.js@gmail.com"><i class="fa fa-envelope fact-icon"></i>rail.batyrshin.js@gmail.com</a>',
   },
   skills: [
-    ["Typescript", 90],
     ["HTML5", 100],
-    ["CSS", 100],
-    ["React", 100],
+    ["CSS3", 100],
+    ["JavaScript", 75],
+    ["TypeScript", 75],
+    ["React", 75],
     ["Vue3.js", 75],
-    ["ChakraUI", 95],
-    ["RxJS", 100],
-    ["OAuth", 100],
-    ["REST", 100],
-    ["CI/CD", 75],
+    ["ChakraUI", 85],
+    ["Webpack", 75],
+    ["Vite", 75],
     ["NodeJS", 75],
     ["SQL", 75],
-    ["Git", 100],
-    ["Jira", 100],
+    ["Git", 75],
+    ["Jira", 65],
   ],
   positions: [
     {
@@ -87,6 +86,25 @@ ensuring secure access control and user management - together with backend devel
 * Integration of third-party services
 * Provided interaction with the backend, which is written in Solidity - together with Blockchain developers
 * Created a landing page for the platform above
+`,
+    },
+    {
+      company: "MadDevs",
+      location: "Bishkek, KG",
+      title: "Frontend Engineer",
+      period: "Aug 2023 - Present",
+      skills: [
+        "Typescript",
+        "React",
+        "Redux/RTK Query",
+        "ChakraUI",
+        "Webpack",
+        "Chart.js",
+      ],
+      contents: `
+  [MadDevs](https://optimalux.com/) 
+  
+  - Created the project OptimalUX (Admin panel) from scratch. OptimalUX - edge-powered A/B testing for maximum optimization
 `,
     },
   ],
